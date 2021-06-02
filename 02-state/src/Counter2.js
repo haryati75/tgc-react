@@ -42,6 +42,7 @@ export default class Counter2 extends React.Component {
     }
 
     render() {
+        
         return (
             <React.Fragment>
                 <div style={this.style}>{this.state.number}</div>
