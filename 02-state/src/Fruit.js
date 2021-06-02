@@ -5,6 +5,10 @@ export default class Fruit extends React.Component {
         fruitName : "No Fruit selected"
     }
 
+    componentDidMount(){
+        console.log(1);
+    }
+
     selectApple = () => {
         this.setState({
             fruitName: "Apple"
