@@ -127,8 +127,6 @@ export default class TaskList extends React.Component {
                             
                         }
 
-                        
-
                     </div>
                 </div>
             )
@@ -178,13 +176,7 @@ export default class TaskList extends React.Component {
             tasks : clonedArray
         })
     }
-
-    updateTaskName = (event) => {
-        this.setState({
-            'newTaskName': event.target.value
-        })
-    }
-    
+   
     addTask = () => {
         // construct new Task
         let newTask = {
